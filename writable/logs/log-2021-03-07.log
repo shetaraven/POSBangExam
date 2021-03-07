@@ -1,0 +1,225 @@
+CRITICAL - 2021-03-07 00:42:54 --> Undefined index: current_orders
+#0 /Applications/MAMP/htdocs/POSBangExam/app/Controllers/Checkout.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Applications/M...', 16, Array)
+#1 /Applications/MAMP/htdocs/POSBangExam/system/CodeIgniter.php(936): App\Controllers\Checkout->index()
+#2 /Applications/MAMP/htdocs/POSBangExam/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#3 /Applications/MAMP/htdocs/POSBangExam/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/POSBangExam/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-07 01:28:59 --> Undefined index: taxtotal
+#0 /Applications/MAMP/htdocs/POSBangExam/app/Controllers/Checkout.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Applications/M...', 99, Array)
+#1 /Applications/MAMP/htdocs/POSBangExam/system/CodeIgniter.php(936): App\Controllers\Checkout->save_orders()
+#2 /Applications/MAMP/htdocs/POSBangExam/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#3 /Applications/MAMP/htdocs/POSBangExam/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/POSBangExam/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-07 01:51:27 --> Too few arguments to function App\Controllers\Summary::index(), 0 passed in /Applications/MAMP/htdocs/POSBangExam/system/CodeIgniter.php on line 936 and exactly 1 expected
+#0 /Applications/MAMP/htdocs/POSBangExam/system/CodeIgniter.php(936): App\Controllers\Summary->index()
+#1 /Applications/MAMP/htdocs/POSBangExam/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Summary))
+#2 /Applications/MAMP/htdocs/POSBangExam/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/POSBangExam/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-07 01:54:23 --> Undefined variable: order_id
+#0 /Applications/MAMP/htdocs/POSBangExam/app/Controllers/Summary.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 11, Array)
+#1 /Applications/MAMP/htdocs/POSBangExam/system/CodeIgniter.php(936): App\Controllers\Summary->index()
+#2 /Applications/MAMP/htdocs/POSBangExam/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Summary))
+#3 /Applications/MAMP/htdocs/POSBangExam/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/POSBangExam/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-07 02:40:17 --> Too few arguments to function App\Controllers\Summary::index(), 0 passed in /Applications/MAMP/htdocs/POSBangExam/system/CodeIgniter.php on line 936 and exactly 1 expected
+#0 /Applications/MAMP/htdocs/POSBangExam/system/CodeIgniter.php(936): App\Controllers\Summary->index()
+#1 /Applications/MAMP/htdocs/POSBangExam/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Summary))
+#2 /Applications/MAMP/htdocs/POSBangExam/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/POSBangExam/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-07 02:41:05 --> Undefined variable: id
+#0 /Applications/MAMP/htdocs/POSBangExam/app/Controllers/Summary.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 11, Array)
+#1 /Applications/MAMP/htdocs/POSBangExam/system/CodeIgniter.php(936): App\Controllers\Summary->index()
+#2 /Applications/MAMP/htdocs/POSBangExam/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Summary))
+#3 /Applications/MAMP/htdocs/POSBangExam/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/POSBangExam/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-07 02:47:58 --> Undefined variable: orders
+#0 /Applications/MAMP/htdocs/POSBangExam/app/Views/Summary.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 78, Array)
+#1 /Applications/MAMP/htdocs/POSBangExam/system/View/View.php(220): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/POSBangExam/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/POSBangExam/system/Common.php(1217): CodeIgniter\View\View->render('Summary.php', Array, true)
+#4 /Applications/MAMP/htdocs/POSBangExam/app/Controllers/Summary.php(17): view('Summary.php', Array)
+#5 /Applications/MAMP/htdocs/POSBangExam/system/CodeIgniter.php(936): App\Controllers\Summary->index('3')
+#6 /Applications/MAMP/htdocs/POSBangExam/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Summary))
+#7 /Applications/MAMP/htdocs/POSBangExam/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/POSBangExam/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-07 02:49:29 --> Undefined variable: table
+#0 /Applications/MAMP/htdocs/POSBangExam/app/Models/MenuModel.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 39, Array)
+#1 /Applications/MAMP/htdocs/POSBangExam/app/Controllers/Summary.php(14): App\Models\MenuModel->fetch_order_details('1')
+#2 /Applications/MAMP/htdocs/POSBangExam/system/CodeIgniter.php(936): App\Controllers\Summary->index('1')
+#3 /Applications/MAMP/htdocs/POSBangExam/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Summary))
+#4 /Applications/MAMP/htdocs/POSBangExam/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/POSBangExam/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-07 02:49:44 --> Undefined variable: orders
+#0 /Applications/MAMP/htdocs/POSBangExam/app/Views/Summary.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 78, Array)
+#1 /Applications/MAMP/htdocs/POSBangExam/system/View/View.php(220): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/POSBangExam/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/POSBangExam/system/Common.php(1217): CodeIgniter\View\View->render('Summary.php', Array, true)
+#4 /Applications/MAMP/htdocs/POSBangExam/app/Controllers/Summary.php(17): view('Summary.php', Array)
+#5 /Applications/MAMP/htdocs/POSBangExam/system/CodeIgniter.php(936): App\Controllers\Summary->index('1')
+#6 /Applications/MAMP/htdocs/POSBangExam/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Summary))
+#7 /Applications/MAMP/htdocs/POSBangExam/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/POSBangExam/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-07 02:51:34 --> json_decode() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() e...', '/Applications/M...', 15, Array)
+#1 /Applications/MAMP/htdocs/POSBangExam/app/Controllers/Summary.php(15): json_decode(Array)
+#2 /Applications/MAMP/htdocs/POSBangExam/system/CodeIgniter.php(936): App\Controllers\Summary->index('1')
+#3 /Applications/MAMP/htdocs/POSBangExam/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Summary))
+#4 /Applications/MAMP/htdocs/POSBangExam/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/POSBangExam/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-07 02:51:44 --> Undefined index: orders
+#0 /Applications/MAMP/htdocs/POSBangExam/app/Controllers/Summary.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Applications/M...', 15, Array)
+#1 /Applications/MAMP/htdocs/POSBangExam/system/CodeIgniter.php(936): App\Controllers\Summary->index('1')
+#2 /Applications/MAMP/htdocs/POSBangExam/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Summary))
+#3 /Applications/MAMP/htdocs/POSBangExam/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/POSBangExam/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-07 02:51:50 --> Cannot use object of type stdClass as array
+#0 /Applications/MAMP/htdocs/POSBangExam/system/View/View.php(220): include()
+#1 /Applications/MAMP/htdocs/POSBangExam/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /Applications/MAMP/htdocs/POSBangExam/system/Common.php(1217): CodeIgniter\View\View->render('Summary.php', Array, true)
+#3 /Applications/MAMP/htdocs/POSBangExam/app/Controllers/Summary.php(18): view('Summary.php', Array)
+#4 /Applications/MAMP/htdocs/POSBangExam/system/CodeIgniter.php(936): App\Controllers\Summary->index('1')
+#5 /Applications/MAMP/htdocs/POSBangExam/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Summary))
+#6 /Applications/MAMP/htdocs/POSBangExam/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/POSBangExam/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-07 02:53:57 --> Cannot use object of type stdClass as array
+#0 /Applications/MAMP/htdocs/POSBangExam/system/View/View.php(220): include()
+#1 /Applications/MAMP/htdocs/POSBangExam/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /Applications/MAMP/htdocs/POSBangExam/system/Common.php(1217): CodeIgniter\View\View->render('Summary.php', Array, true)
+#3 /Applications/MAMP/htdocs/POSBangExam/app/Controllers/Summary.php(21): view('Summary.php', Array)
+#4 /Applications/MAMP/htdocs/POSBangExam/system/CodeIgniter.php(936): App\Controllers\Summary->index('1')
+#5 /Applications/MAMP/htdocs/POSBangExam/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Summary))
+#6 /Applications/MAMP/htdocs/POSBangExam/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/POSBangExam/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-07 02:54:37 --> Cannot use object of type stdClass as array
+#0 /Applications/MAMP/htdocs/POSBangExam/system/View/View.php(220): include()
+#1 /Applications/MAMP/htdocs/POSBangExam/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /Applications/MAMP/htdocs/POSBangExam/system/Common.php(1217): CodeIgniter\View\View->render('Summary.php', Array, true)
+#3 /Applications/MAMP/htdocs/POSBangExam/app/Controllers/Summary.php(21): view('Summary.php', Array)
+#4 /Applications/MAMP/htdocs/POSBangExam/system/CodeIgniter.php(936): App\Controllers\Summary->index('1')
+#5 /Applications/MAMP/htdocs/POSBangExam/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Summary))
+#6 /Applications/MAMP/htdocs/POSBangExam/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/POSBangExam/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-07 02:54:49 --> syntax error, unexpected '?>'
+#0 /Applications/MAMP/htdocs/POSBangExam/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /Applications/MAMP/htdocs/POSBangExam/system/Common.php(1217): CodeIgniter\View\View->render('Summary.php', Array, true)
+#2 /Applications/MAMP/htdocs/POSBangExam/app/Controllers/Summary.php(21): view('Summary.php', Array)
+#3 /Applications/MAMP/htdocs/POSBangExam/system/CodeIgniter.php(936): App\Controllers\Summary->index('1')
+#4 /Applications/MAMP/htdocs/POSBangExam/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Summary))
+#5 /Applications/MAMP/htdocs/POSBangExam/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/POSBangExam/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-07 02:55:06 --> Undefined variable: pretotal
+#0 /Applications/MAMP/htdocs/POSBangExam/app/Views/Summary.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 86, Array)
+#1 /Applications/MAMP/htdocs/POSBangExam/system/View/View.php(220): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/POSBangExam/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/POSBangExam/system/Common.php(1217): CodeIgniter\View\View->render('Summary.php', Array, true)
+#4 /Applications/MAMP/htdocs/POSBangExam/app/Controllers/Summary.php(21): view('Summary.php', Array)
+#5 /Applications/MAMP/htdocs/POSBangExam/system/CodeIgniter.php(936): App\Controllers\Summary->index('1')
+#6 /Applications/MAMP/htdocs/POSBangExam/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Summary))
+#7 /Applications/MAMP/htdocs/POSBangExam/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/POSBangExam/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-07 02:57:26 --> Undefined variable: pretotal
+#0 /Applications/MAMP/htdocs/POSBangExam/app/Views/Summary.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 93, Array)
+#1 /Applications/MAMP/htdocs/POSBangExam/system/View/View.php(220): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/POSBangExam/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/POSBangExam/system/Common.php(1217): CodeIgniter\View\View->render('Summary.php', Array, true)
+#4 /Applications/MAMP/htdocs/POSBangExam/app/Controllers/Summary.php(21): view('Summary.php', Array)
+#5 /Applications/MAMP/htdocs/POSBangExam/system/CodeIgniter.php(936): App\Controllers\Summary->index('1')
+#6 /Applications/MAMP/htdocs/POSBangExam/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Summary))
+#7 /Applications/MAMP/htdocs/POSBangExam/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/POSBangExam/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-07 02:58:10 --> Trying to get property 'pretotal' of non-object
+#0 /Applications/MAMP/htdocs/POSBangExam/app/Views/Summary.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Applications/M...', 93, Array)
+#1 /Applications/MAMP/htdocs/POSBangExam/system/View/View.php(220): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/POSBangExam/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/POSBangExam/system/Common.php(1217): CodeIgniter\View\View->render('Summary.php', Array, true)
+#4 /Applications/MAMP/htdocs/POSBangExam/app/Controllers/Summary.php(21): view('Summary.php', Array)
+#5 /Applications/MAMP/htdocs/POSBangExam/system/CodeIgniter.php(936): App\Controllers\Summary->index('1')
+#6 /Applications/MAMP/htdocs/POSBangExam/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Summary))
+#7 /Applications/MAMP/htdocs/POSBangExam/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/POSBangExam/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-07 02:59:32 --> Trying to get property 'pre_total' of non-object
+#0 /Applications/MAMP/htdocs/POSBangExam/app/Views/Summary.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Applications/M...', 93, Array)
+#1 /Applications/MAMP/htdocs/POSBangExam/system/View/View.php(220): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/POSBangExam/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/POSBangExam/system/Common.php(1217): CodeIgniter\View\View->render('Summary.php', Array, true)
+#4 /Applications/MAMP/htdocs/POSBangExam/app/Controllers/Summary.php(21): view('Summary.php', Array)
+#5 /Applications/MAMP/htdocs/POSBangExam/system/CodeIgniter.php(936): App\Controllers\Summary->index('1')
+#6 /Applications/MAMP/htdocs/POSBangExam/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Summary))
+#7 /Applications/MAMP/htdocs/POSBangExam/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/POSBangExam/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-07 03:00:18 --> Undefined index: pre_tota
+#0 /Applications/MAMP/htdocs/POSBangExam/app/Views/Summary.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Applications/M...', 93, Array)
+#1 /Applications/MAMP/htdocs/POSBangExam/system/View/View.php(220): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/POSBangExam/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/POSBangExam/system/Common.php(1217): CodeIgniter\View\View->render('Summary.php', Array, true)
+#4 /Applications/MAMP/htdocs/POSBangExam/app/Controllers/Summary.php(21): view('Summary.php', Array)
+#5 /Applications/MAMP/htdocs/POSBangExam/system/CodeIgniter.php(936): App\Controllers\Summary->index('1')
+#6 /Applications/MAMP/htdocs/POSBangExam/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Summary))
+#7 /Applications/MAMP/htdocs/POSBangExam/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/POSBangExam/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-07 03:24:13 --> Undefined index: current_orders
+#0 /Applications/MAMP/htdocs/POSBangExam/app/Controllers/Checkout.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Applications/M...', 14, Array)
+#1 /Applications/MAMP/htdocs/POSBangExam/system/CodeIgniter.php(936): App\Controllers\Checkout->index()
+#2 /Applications/MAMP/htdocs/POSBangExam/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#3 /Applications/MAMP/htdocs/POSBangExam/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/POSBangExam/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-07 03:26:37 --> Undefined index: current_orders
+#0 /Applications/MAMP/htdocs/POSBangExam/app/Controllers/Checkout.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Applications/M...', 14, Array)
+#1 /Applications/MAMP/htdocs/POSBangExam/system/CodeIgniter.php(936): App\Controllers\Checkout->index()
+#2 /Applications/MAMP/htdocs/POSBangExam/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#3 /Applications/MAMP/htdocs/POSBangExam/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/POSBangExam/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-07 03:27:34 --> Undefined index: current_orders
+#0 /Applications/MAMP/htdocs/POSBangExam/app/Controllers/Checkout.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Applications/M...', 14, Array)
+#1 /Applications/MAMP/htdocs/POSBangExam/system/CodeIgniter.php(936): App\Controllers\Checkout->index()
+#2 /Applications/MAMP/htdocs/POSBangExam/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#3 /Applications/MAMP/htdocs/POSBangExam/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/POSBangExam/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-07 03:28:20 --> Undefined index: current_orders
+#0 /Applications/MAMP/htdocs/POSBangExam/app/Controllers/Checkout.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Applications/M...', 15, Array)
+#1 /Applications/MAMP/htdocs/POSBangExam/system/CodeIgniter.php(936): App\Controllers\Checkout->index()
+#2 /Applications/MAMP/htdocs/POSBangExam/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#3 /Applications/MAMP/htdocs/POSBangExam/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/POSBangExam/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-07 03:28:30 --> Argument 2 passed to view() must be of the type array, bool given, called in /Applications/MAMP/htdocs/POSBangExam/app/Controllers/Checkout.php on line 23
+#0 /Applications/MAMP/htdocs/POSBangExam/app/Controllers/Checkout.php(23): view('Checkout', false)
+#1 /Applications/MAMP/htdocs/POSBangExam/system/CodeIgniter.php(936): App\Controllers\Checkout->index()
+#2 /Applications/MAMP/htdocs/POSBangExam/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#3 /Applications/MAMP/htdocs/POSBangExam/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/POSBangExam/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-07 03:28:55 --> Undefined variable: data
+#0 /Applications/MAMP/htdocs/POSBangExam/app/Views/Checkout.php(128): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 128, Array)
+#1 /Applications/MAMP/htdocs/POSBangExam/system/View/View.php(220): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/POSBangExam/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/POSBangExam/system/Common.php(1217): CodeIgniter\View\View->render('Checkout', Array, true)
+#4 /Applications/MAMP/htdocs/POSBangExam/app/Controllers/Checkout.php(23): view('Checkout', Array)
+#5 /Applications/MAMP/htdocs/POSBangExam/system/CodeIgniter.php(936): App\Controllers\Checkout->index()
+#6 /Applications/MAMP/htdocs/POSBangExam/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#7 /Applications/MAMP/htdocs/POSBangExam/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/POSBangExam/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
